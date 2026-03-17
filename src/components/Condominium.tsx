@@ -2,27 +2,27 @@ import { Check, ShieldCheck } from 'lucide-react';
 
 export function Condominium() {
   const amenities = [
-    "Salão de festas",
-    "Espaço gourmet com terraço",
-    "Salão de jogos",
-    "Espaço fitness",
-    "Terraço coberto",
-    "Piscina adulto com raia",
-    "Piscina infantil",
-    "Banheiros na área das piscinas",
-    "Duchas nas áreas das piscinas",
-    "Deck molhado",
-    "Solarium",
-    "Terraço bar",
-    "Gazebo",
-    "Campo de futebol gramado",
-    "Quadra de areia para vôlei",
-    "Duchas na área do campo e quadra",
-    "Lavabos na área da churrasqueira",
-    "Churrasqueira",
-    "Playgrounds",
-    "Jardins gramados",
-    "Administração"
+    'Salão de festas',
+    'Espaço gourmet com terraço',
+    'Salão de jogos',
+    'Espaço fitness',
+    'Terraço coberto',
+    'Piscina adulto com raia',
+    'Piscina infantil',
+    'Banheiros na área das piscinas',
+    'Duchas nas áreas das piscinas',
+    'Deck molhado',
+    'Solarium',
+    'Terraço bar',
+    'Gazebo',
+    'Campo de futebol gramado',
+    'Quadra de areia para vôlei',
+    'Duchas na área do campo e quadra',
+    'Lavabos na área da churrasqueira',
+    'Churrasqueira',
+    'Playgrounds',
+    'Jardins gramados',
+    'Administração',
   ];
 
   return (
@@ -33,9 +33,10 @@ export function Condominium() {
             O Condomínio Sunville
           </h2>
           <p className="text-lg text-stone-300 max-w-3xl mx-auto leading-relaxed">
-            Localizado em uma área tranquila, de fácil acesso e que tem tudo o que você precisa. 
-            Está próximo ao centro de convenções, teatro, colégios, supermercados, universidade, 
-            faculdades, shopping, praias e muito mais.
+            Localizado em uma área tranquila, de fácil acesso e que tem tudo o
+            que você precisa. Está próximo ao centro de convenções, teatro,
+            colégios, supermercados, universidade, faculdades, shopping, praias
+            e muito mais.
           </p>
         </div>
 
@@ -47,7 +48,8 @@ export function Condominium() {
                 Infraestrutura Completa e Segurança
               </h3>
               <p className="text-stone-300 text-lg">
-                Mais de 20 itens de lazer, conforto e segurança, para você ter mais qualidade na sua vida.
+                Mais de 20 itens de lazer, conforto e segurança, para você ter
+                mais qualidade na sua vida.
               </p>
             </div>
           </div>
@@ -58,7 +60,9 @@ export function Condominium() {
                 <div className="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center shrink-0 group-hover:bg-emerald-500/40 transition-colors">
                   <Check className="w-4 h-4 text-emerald-400" />
                 </div>
-                <span className="text-stone-300 group-hover:text-white transition-colors">{item}</span>
+                <span className="text-stone-300 group-hover:text-white transition-colors">
+                  {item}
+                </span>
               </div>
             ))}
           </div>

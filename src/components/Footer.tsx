@@ -6,8 +6,12 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Casa Sunville. Todos os direitos reservados.
         </p>
         <div className="flex gap-8">
-          <a href="#" className="text-stone-500 hover:text-stone-300 transition-colors text-sm font-medium">Política de Privacidade</a>
-          <a href="#" className="text-stone-500 hover:text-stone-300 transition-colors text-sm font-medium">Termos de Uso</a>
+          <a href="#" className="text-stone-500 hover:text-stone-300 transition-colors text-sm font-medium">
+            Política de Privacidade
+          </a>
+          <a href="#" className="text-stone-500 hover:text-stone-300 transition-colors text-sm font-medium">
+            Termos de Uso
+          </a>
         </div>
       </div>
     </footer>
