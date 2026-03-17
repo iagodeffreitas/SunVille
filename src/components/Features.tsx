@@ -21,12 +21,6 @@ export function Features() {
             Design moderno, ambientes integrados e uma área de lazer incrível
             para sua família desfrutar os melhores momentos.
           </p>
-          <div className="mt-10 inline-block bg-stone-50 border border-stone-200 px-8 py-4 rounded-2xl shadow-sm">
-            <span className="text-stone-500 uppercase tracking-wider text-sm font-semibold">
-              Valor do investimento
-            </span>
-            <p className="text-4xl font-black text-emerald-600 mt-1">R$ 870.000</p>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

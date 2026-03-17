@@ -16,7 +16,7 @@ export function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center py-16 lg:py-20">
         <div className="grid lg:grid-cols-[minmax(0,1.05fr)_minmax(320px,0.95fr)] gap-12 xl:gap-16 items-center w-full">
-          <div>
+          <div className="order-2 lg:order-1">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -107,7 +107,7 @@ export function Hero() {
             initial={{ opacity: 0, x: 24 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="relative lg:justify-self-end w-full max-w-[32rem]"
+            className="order-1 lg:order-2 relative lg:justify-self-end w-full max-w-[32rem]"
           >
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-3 shadow-2xl shadow-black/30 backdrop-blur-sm">
               <div className="relative overflow-hidden rounded-[1.6rem] aspect-[4/5]">
